@@ -1,0 +1,5 @@
+(findDuplicates)442. 数组中重复的数据:https://leetcode-cn.com/problems/find-all-duplicates-in-an-array
+(findDisappearedNumbers)448. 找到所有数组中消失的数字:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
+(findRepeatNumber)剑指 Offer 03. 数组中重复的数字:https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
+(findDuplicate)287. 寻找重复数:https://leetcode-cn.com/problems/find-the-duplicate-number/
+(removeElement)27. 移除元素:https://leetcode-cn.com/problems/remove-element/
