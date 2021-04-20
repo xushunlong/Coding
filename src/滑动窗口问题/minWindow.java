@@ -8,13 +8,7 @@ public class minWindow {
         String s = "A", t = "AA";
         System.out.println(minWindow(s, t));
     }
-<<<<<<< HEAD
-    /*
-    *
-    * */
-=======
 
->>>>>>> 238c08ed9291f0bbc1820dd4b210d5c9350e1e9b
     public static String minWindow(String s, String t) {
         /*
          *  s是源字符串

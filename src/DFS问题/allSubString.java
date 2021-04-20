@@ -1,7 +1,5 @@
 package DFS问题;
 
-import org.junit.jupiter.api.Test;
-
 public class allSubString {
     /*
      * 输出所有子序列类的问题
@@ -27,12 +25,5 @@ public class allSubString {
             System.out.println();
 
         }
-    }
-
-    @Test
-    public void test() {
-        int arr[] = {1, 2, 3};
-        place(arr);
-//        System.out.println(1 & 2);
     }
 }
