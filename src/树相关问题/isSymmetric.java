@@ -11,14 +11,23 @@ package 树相关问题;
  */
 
 public class isSymmetric {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
+    /**
+     * (isSymmetric)101. 对称二叉树:https://leetcode-cn.com/problems/symmetric-tree/
+     * @param root
+     * @return
+     */
+    public boolean isSymmetric2(TreeNode root) {
+        return dfs(root.left, root.right);
+    }
 
-        TreeNode(int x) {
-            val = x;
-        }
+    public boolean dfs(TreeNode left, TreeNode right) {
+        if (left == null && right == null)
+            return true;
+        if (left == null || right == null)
+            return false;
+        if (left.val != right.val)
+            return false;
+        return dfs(left.left, right.right) && dfs(left.right, right.left);
     }
 
     /*

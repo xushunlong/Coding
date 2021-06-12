@@ -1,1 +1,2 @@
 (longestCommonPrefix)14. 最长公共前缀:https://leetcode-cn.com/problems/longest-common-prefix/
+(strStr)28.实现 strStr():https://leetcode-cn.com/problems/implement-strstr/

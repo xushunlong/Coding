@@ -1,4 +1,6 @@
-package 树相关问题;
+package 树相关问题.路径和;
+
+import 树相关问题.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Deque;
@@ -28,4 +30,26 @@ public class pathSum {
         recur(node.right, sum);
         stack.removeLast();
     }
+
+    /**
+     * 113. 路径总和 II:https://leetcode-cn.com/problems/path-sum-ii/
+     */
+    public List<List<Integer>> pathSum2(TreeNode root, int targetSum) {
+        dfs(root, targetSum);
+        return res;
+    }
+
+    public void dfs(TreeNode root, int sum) {
+        if (root == null)
+            return;
+        sum -= root.val;
+        stack.add(root.val);
+        if (root.right == null && root.left == null && sum == 0) {
+                res.add(new LinkedList<>(stack));
+        }
+        dfs(root.left, sum);
+        dfs(root.right, sum);
+        stack.removeLast();
+    }
+
 }

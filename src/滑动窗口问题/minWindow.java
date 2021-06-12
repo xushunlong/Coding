@@ -14,7 +14,7 @@ public class minWindow {
          *  s是源字符串
          *  t是目标串
          * */
-        if (s == null || t == null || s.length() == 0 || t.length() == 0 )
+        if (s == null || t == null || s.length() == 0 || t.length() == 0)
             return "";
         int need[] = new int[128];
         for (int i = 0; i < t.length(); i++) {

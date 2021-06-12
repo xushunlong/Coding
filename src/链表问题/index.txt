@@ -4,3 +4,6 @@
 (deleteDuplicates2)82. 删除排序链表中的重复元素 II:https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/
 (addTwoNumbers2)445. 两数相加 II:https://leetcode-cn.com/problems/add-two-numbers-ii/
 (reverseBetween)92. 反转链表 II:https://leetcode-cn.com/problems/reverse-linked-list-ii/
+(getKthFromEnd)剑指 Offer 22. 链表中倒数第k个节点https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/submissions/
+(isPalindrome)234. 回文链表:https://leetcode-cn.com/problems/palindrome-linked-list/
+(middleNode)876. 链表的中间结点:https://leetcode-cn.com/problems/middle-of-the-linked-list/
